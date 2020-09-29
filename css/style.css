@@ -151,7 +151,10 @@
 			.row > article {
 				margin-bottom: 0;
 			}
-
+	.icons {
+		width: 64px;
+		height: 64px;
+	}
 	/* Image */
 
 		.image {
