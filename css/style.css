@@ -427,7 +427,7 @@
 				height: 5em;
 				line-height: 4.5em;
 				padding: 0;
-				background-image: url('images/downarrow.png');
+				background-image: url('images/downarrow32.png');
 				background-position: center center;
 				background-repeat: no-repeat;
 				text-indent: -10em;
@@ -478,7 +478,7 @@
 				}
 
 				.button.style2.down {
-					background-image: url('images/downarrow.png');
+					background-image: url('images/downarrow32.png');
 				}
 
 	/* Box */
@@ -654,7 +654,7 @@
 				}
 
 				.dark .button.style2.down {
-					background-image: url('images/downarrow.png');
+					background-image: url('images/downarrow32.png');
 				}
 
 /*********************************************************************************/
