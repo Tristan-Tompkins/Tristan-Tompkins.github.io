@@ -71,7 +71,7 @@
 	}
 
 	a {
-		color: #98c593;
+		color: #39454b;
 
 		-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -123,11 +123,6 @@
 
 	br.clear {
 		clear: both;
-	}
-
-	.vl {
-	  border-left: .5px solid grey;
-	  height: 5px;
 	}
 
 	/* Sections/Article */
@@ -283,85 +278,6 @@
 				ol.default li {
 					padding-left: 0.25em;
 				}
-
-	/* Form */
-
-		form {
-		}
-
-			form label {
-				display: block;
-			}
-
-			form input[type="text"],
-			form input[type="email"],
-			form input[type="password"],
-			form select,
-			form textarea {
-				display: block;
-				width: 100%;
-				padding: 0.65em 0.75em;
-				background: none;
-				border: solid 2px rgba(185,186,187,0.25);
-				color: inherit;
-				border-radius: 0.5em;
-				outline: none;
-
-				-moz-appearance: none;
-				-webkit-appearance: none;
-				-o-appearance: none;
-				-ms-appearance: none;
-				appearance: none;
-
-				-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-			}
-
-				form input[type="text"]:focus,
-				form input[type="email"]:focus,
-				form input[type="password"]:focus,
-				form select:focus,
-				form textarea:focus {
-					border-color: #9ac8e9;
-				}
-
-			form input[type="text"],
-			form input[type="email"],
-			form input[type="password"],
-			form select {
-				line-height: 1.35em;
-			}
-
-			form textarea {
-				min-height: 8em;
-			}
-
-			form .formerize-placeholder {
-				color: rgba(145,146,147,0.85) !important;
-			}
-
-			form ::-webkit-input-placeholder {
-				color: rgba(145,146,147,0.85) !important;
-			}
-
-			form :-moz-placeholder {
-				color: rgba(145,146,147,0.85) !important;
-			}
-
-			form ::-moz-placeholder {
-				color: rgba(145,146,147,0.85) !important;
-			}
-
-			form :-ms-input-placeholder {
-				color: rgba(145,146,147,0.85) !important;
-			}
-
-			form ::-moz-focus-inner {
-				border: 0;
-			}
 
 	/* Table */
 
