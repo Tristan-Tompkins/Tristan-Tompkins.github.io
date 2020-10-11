@@ -125,6 +125,10 @@
 		clear: both;
 	}
 
+	p.social a:hover {
+	background-color: #104696;
+  }
+
 	/* Sections/Article */
 
 		section,
