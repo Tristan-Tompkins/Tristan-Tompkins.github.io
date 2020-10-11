@@ -157,6 +157,14 @@
 		font-size: 64px;
 		padding: 10px;
 	}
+
+	.darkest {
+		background-color: rgb(128,128,128,.5);
+	}
+
+	a:hover {
+		background-color: rgb(0,191,255)
+	}
 	/* Image */
 
 		.image {
