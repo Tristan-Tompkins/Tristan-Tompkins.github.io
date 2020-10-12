@@ -71,13 +71,17 @@
 	}
 
 	a {
-		color: #39454b;
+		color: rgba;
 
 		-moz-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+	}
+
+	a:hover {
+		background-color: rgba(57,69,75,.5)
 	}
 
 	sub {
@@ -136,7 +140,7 @@
 	}
 
 	.darkest:hover {
-		background-color: rgb(0,191,255)
+		background-color: rgba(0,191,255)
 	}
 
 	span {
