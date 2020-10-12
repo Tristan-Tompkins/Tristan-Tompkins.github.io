@@ -138,6 +138,10 @@
 	.darkest:hover {
 		background-color: rgb(0,191,255)
 	}
+
+	span {
+		margin: 0 10px 0 0;
+	}
 	/* Sections/Article */
 
 		section,
