@@ -125,16 +125,17 @@
 		clear: both;
 	}
 
-	.darkest {
+	.dark {
 		background-color: #39454b;
 		color: #fff;
+		display: inline-block;
 		margin: 0 10px 0 0;
 		width: 38px;
 		height: 38px;
 		border-radius: 19px;
 	}
 
-	a.darkest:hover {
+	.dark:hover {
 		background-color: rgb(0,191,255)
 	}
 	/* Sections/Article */
