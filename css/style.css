@@ -149,6 +149,7 @@
 		position: relative;
 		width: 320px;
 		height: 440px;
+		background-color: rgba(57,69,75,1);
 		box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
 								inset 5px 5px 5px rgba(255, 255, 255, 0.1),
 								5px 5px 15px rgba(0,0,0,0.3),
