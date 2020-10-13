@@ -217,6 +217,7 @@
 		color: rgba(255,255,255,0.5);
 		z-index: 1;
 		transition: 0.5s;
+		line-height: normal;
 	}
 
 	.port a {
