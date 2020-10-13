@@ -157,7 +157,7 @@
 		margin: 30px;
 	}
 
-	.box {
+	.boxer {
 		position: absolute;
 		top: 20px;
 		left: 20px;
@@ -174,7 +174,7 @@
 		overflow: hidden;
 	}
 
-	.box::before {
+	.boxer::before {
 		content: '';
 		position: absolute;
 		top: 0;
@@ -185,7 +185,7 @@
 		pointer-events: none;
 	}
 
-	.box:hover {
+	.boxer:hover {
 		transform: translateY(-50px);
 		box-shadow: 0 40px 70px rgba(0,0,0,0.5);
 	}
@@ -222,7 +222,7 @@
 		position: relative;
 		display: inline-block;
 		padding: 8px 20px;
-		background: #000;
+		background: #39454b;
 		margin-top: 15px;
 		border-radius: 20px;
 		text-decoration: none;
@@ -231,9 +231,6 @@
 		box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 	}
 
-	.port a {
-
-	}
 	/* Sections/Article */
 
 		section,
@@ -1071,7 +1068,7 @@
 /* Poptrox                                                                       */
 /*********************************************************************************/
 
-	.poptrox-popup {
+	/* .poptrox-popup {
 		background: #fff;
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
@@ -1238,7 +1235,7 @@
 
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
-			}
+			} */
 
 /*********************************************************************************/
 /* Touch Mode                                                                    */
