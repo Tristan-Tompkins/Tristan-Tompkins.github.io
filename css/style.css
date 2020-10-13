@@ -240,6 +240,7 @@
 		section,
 		article {
 			margin-bottom: 3em;
+			align-items: center;
 		}
 
 			section > :last-child,
