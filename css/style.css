@@ -202,6 +202,8 @@
 		right: 30;
 		font-size: 8em;
 		color: rgba(255,255,255,0.05);
+		transform: rotate(45deg);
+		padding-top: 80px;
 	}
 
 	.port h3 {
