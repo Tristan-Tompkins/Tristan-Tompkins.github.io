@@ -78,6 +78,8 @@
 
 			.main.style3 {
 				text-align: center;
+				align-content: center;
+				align-items: center;
 				padding: 3em 10px 3em 10px;
 			}
 
