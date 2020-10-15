@@ -1,6 +1,4 @@
 @charset 'UTF-8';
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
-@import url('font-awesome.min.css');
 
 /*
 	Big Picture by HTML5 UP
@@ -149,6 +147,7 @@
 		position: relative;
 		width: 380px;
 		height: 470px;
+		-webkit-box-sizing: content-box;
 		box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
 								inset 5px 5px 5px rgba(255, 255, 255, 0.1),
 								5px 5px 15px rgba(0,0,0,0.3),
