@@ -9,7 +9,7 @@
 /*********************************************************************************/
 
 	body {
-		min-width: 320px;
+		min-width: 280px;
 	}
 
 	body,input,textarea,select {
@@ -44,6 +44,7 @@
 
 			.main.style1 {
 				padding: 4em 15px 4em 15px;
+				min-height: 653px;
 			}
 
 				.main.style1 h2 {
@@ -82,7 +83,17 @@
 				align-items: center;
 				padding: 3em 10px 3em 10px;
 			}
-
+			.card {
+			    position: relative;
+			    width: 380px;
+			    height: 400px;
+			    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset 5px 5px 5px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1);
+			    border-radius: 15px;
+			    margin: 15px 30px 15px 15px;
+			    float: left;
+			    align-content: center;
+			    max-width: calc(100% - 1.5em);
+			}
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
